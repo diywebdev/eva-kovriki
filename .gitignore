@@ -7,3 +7,5 @@ config.php
 /BACK/
 **/*.zip
 **/*.sql
+jino
+jino.pub
