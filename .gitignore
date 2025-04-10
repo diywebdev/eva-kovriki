@@ -6,3 +6,4 @@ config.php
 /img/
 /BACK/
 **/*.zip
+**/*.sql
