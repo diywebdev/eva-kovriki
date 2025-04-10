@@ -1,3 +1,3 @@
-# eva_kovriki
+# EVA KOVRIKI
 
  Продажа ева-ковриков в Крыму.
