@@ -1,0 +1,8 @@
+.idea
+config.php
+/uploads/
+/update2/config.php
+/images/
+/img/
+/BACK/
+**/*.zip

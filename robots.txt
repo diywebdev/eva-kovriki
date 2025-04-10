@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: 
+Disallow: /admin/*
+Disallow: /login/*
+Disallow: /admin_products/*
+Disallow: /admin_products/*
+Disallow: /admin_price/*
+Disallow: /admin_sale/*
+Disallow: /admin_bag/*
+
+Sitemap: http://xn--90as2d.xn----7sbfl2am1a2g.xn--p1ai/sitemap.xml

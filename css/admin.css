@@ -1,0 +1,363 @@
+.login_box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_box form {
+  width: 300px;
+}
+.login_group {
+  margin-bottom: 15px;
+}
+.login_group input[type="text"],
+.login_group input[type="password"],
+.login_group button {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid #d8a238;
+}
+.login_group input[type="text"]:focus,
+.login_group input[type="password"]:focus,
+.login_group button:focus {
+   outline: none;
+}
+
+.admin_section {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  padding: 0px;
+}
+.left_menu {
+  width: 210px;
+  height: 100%;
+  position: relative;
+  background-color: #262f36;
+  border-right: 2px solid #262f36;
+}
+.left_header {
+  width: 100%;
+  height: 50px;
+  padding: 5px 10px;
+  background-color: #9f9f9f;
+  border-bottom: 1px solid #262f36;
+}
+.left_header .logo_box {
+  text-align: center;
+}
+.left_content {
+  width: 100%;
+  height: calc(100% - 50px);
+  padding: 10px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.content {
+  width: calc(100% - 210px);
+  height: 100%;
+  position: relative;
+}
+.content_header {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #262f36;
+}
+.inner_content {
+  width: 100%;
+  height: calc(100% - 50px);
+  padding: 10px 15px;
+  position: relative;
+  overflow-y: auto;
+}
+
+.admin_menu_list {
+
+}
+.admin_menu_list .menu_item {
+  margin-bottom: 10px;
+}
+.admin_menu_list .menu_item > a {
+  color: #adadad;
+  font-size: 18px;
+}
+.admin_menu_list .menu_item > a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.admin_menu_list .menu_item.active > a {
+  color: #d8a238;
+  font-weight: bold;
+}
+
+.inner_tab {
+  padding-top: 15px;
+}
+.inner_tab > .btn_box {
+  margin-bottom: 15px;
+}
+.img_group {
+  margin: 0 -10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img_col {
+  padding: 0 10px;
+}
+.img_item {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border: 1px solid #333;
+  margin-bottom: 20px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.img_item_overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(51, 51, 51, 0.4);
+  opacity: 0;
+  transition: opacity .5s;
+  z-index: 1;
+}
+.img_item:hover > .img_item_overlay {
+  opacity: 1;
+}
+.img_item_top {
+  width: 100%;
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  padding: 0 10px;
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: margin .3s;
+  position: relative;
+  z-index: 10;
+}
+.img_item:hover > .img_item_top {
+ margin-top: 0;
+}
+.img_id {
+  margin-bottom: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.img_btn_box .hide_btn {
+  color: #fff;
+}
+.img_zoom_btn {
+  position: absolute;
+  left: calc(50% - 18px);
+  top: calc(50% - 18px);
+  opacity: 0;
+  transition: opacity .5s;
+  z-index: 10;
+}
+.img_item:hover > .img_zoom_btn {
+ opacity: 1;
+}
+.img_zoom_btn a {
+  color: #fff;
+  font-size: 30px;
+}
+.img_zoom_btn a:hover {
+  color: #d8a238;
+}
+.opasity_box {
+  transition: opacity 1s;
+  opacity: 1;
+}
+.opasity_box.opasity_hide {
+  opacity: 0;
+}
+.form_group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.form_group input[type="text"],
+.form_group input[type="number"] {
+  width: 100%;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: 1px solid #d8a238;
+  border-radius: 0;
+  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.form_group input[type="text"]:focus,
+.form_group input[type="number"]:focus {
+  border-color: #d8a238;
+  box-shadow: 0 0 5px 0px rgba(26, 26, 26, 0.3);
+  outline: 0 none;
+}
+.form_group label {
+  margin-bottom: 3px;
+}
+.form_group .file_input {
+  width: 100%;
+  height: 250px;
+  border: 1px solid #464646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.file_input .file_btn {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #464646;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #464646;
+  cursor: pointer;
+}
+.file_btn .icon {
+  font-size: 46px;
+}
+
+
+.modal .hide_title {
+  display: none;
+}
+.modal .hide_title.active {
+  display: block;
+}
+
+.flex_from_group {
+  display: flex;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.flex_from_group .admin_form_group {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.admin_form_group {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.admin_form_group input[type="text"] {
+  width: 100%;
+  padding: 5px 10px;
+}
+.lang_label {
+  margin-bottom: 3px;
+}
+.inner_admin_content {
+  margin-bottom: 30px;
+}
+.inner_admin_content h2 {
+  margin-bottom: 5px;
+}
+.inner_admin_content .staff_inner {
+  position: relative;
+}
+.inner_admin_content .staff_inner .staff_img_box {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: #fff;
+}
+.inner_admin_content .staff_inner .staff_img_box input[type="file"] {
+  display: none;
+}
+.inner_admin_content .staff_inner input[type="text"] {
+  padding: 3px 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.remove_staf_btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.categori_img {
+  position: relative;
+}
+.categori_img .del_btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #f00;
+}
+
+.btn_box {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.card .list_id {
+  padding-right: 8px;
+  margin-right: 20px;
+}
+.card .list_title {
+  padding-right: 15px;
+  position: relative;
+  z-index: 5;
+}
+.card .list_title + .icon {
+  font-size: 10px;
+  margin-left: -13px;
+  position: relative;
+  z-index: 0;
+}
+
+*[contenteditable="true"] {
+  cursor: text;
+}
+
+.remove_liist_btn {
+  position: absolute;
+  right: 15px;
+}
+.saveGroupBtn {
+  position: absolute;
+  right: 15px;
+}
+
+.btn_box .remove_liist_btn {
+  position: absolute;
+  right: 180px;
+  top: 15px;
+}
+.btn_box .saveGroupBtn {
+  position: absolute;
+  right: 180px;
+  top: 0px;
+}
+
+.pricelist_section > .btn_box {
+  margin-bottom: 30px;
+}
+
+.accordion .btn_box h3 {
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+.reviews_table {
+  width: 100%;
+}
+.reviews_table tr td:nth-child(4) {
+  max-width: 450px;
+}

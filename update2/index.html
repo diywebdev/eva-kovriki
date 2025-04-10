@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Test</title>
+        </head>
+        <body>
+        
+        <form action="/update2/go.php">
+           <div id="car-menu"></div>
+           
+        </form>
+           
+           <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> 
+           <script>
+                function carMenu(manufacturer, model, generation){
+                    
+                    $('#car-menu').html('<select onChange="changeBrand()" name="manufacturer" id="manufacturer">' +
+                    '<option value="0">Выбрать марку</option>' +
+                    '</select>'+
+                    '<select onChange="changeModel()" name="seria" id="seria">' +
+                    '<option value="0">Выбрать модель</option>' +
+                    '</select>'+
+                    '<select id="model" name="model">' +
+                    '<option value="0">Выбрать поколение</option>' +
+                    '</select>'+
+                    '<button id="submit" type="submit">Показать</button>'
+                    );
+                    
+                        $.get( "/update2/load.menu.php", {act: 'load-brands'}, function( data ) {
+
+                            $('#manufacturer').append(data);
+
+             	 		});		  
+             	 		
+             	 		$('#seria, #model, #submit').prop('disabled', 'disabled');
+             	 		    	
+              	 
+                }
+                
+                function changeBrand(){
+                    
+                    var brand = $("#manufacturer").val();
+                    
+                    $.get( "/update2/load.menu.php", {act: 'load-seria', brand_id: brand}, function( data ) {
+
+                            $('#seria').html('<option value="0">Выбрать модель</option>');
+                            $('#model').html('<option value="0">Выбрать поколение</option>');
+                            
+                            $('#seria').prop('disabled', false);
+
+
+                            $('#seria').append(data);
+
+             	 	});	
+                    
+                }
+                
+                function changeModel(){
+                    
+                    var brand = $("#manufacturer").val();
+                    var seria = $("#seria").val();
+                    
+                    $.get( "/update2/load.menu.php", {act: 'load-model', brand_id: brand, seria_id: seria}, function( data ) {
+
+                            $('#model').html('<option value="0">Выбрать поколение</option>');
+                            
+                            $('#model, #submit').prop('disabled', false);
+
+
+                            $('#model').append(data);
+
+             	 	});	
+                    
+                }
+                
+           carMenu('0','0','0');
+           
+           </script>
+        </body>
+    </html>

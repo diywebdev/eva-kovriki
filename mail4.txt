@@ -1,0 +1,91 @@
+mudriy-yalta@mail.ru|||ЕВА-Крым.рф-Новый заказ|||
+        <table style="border-collapse: collapse;width: 100%;margin-bottom: 50px;">
+    <tr>
+        <td colspan="2" style="padding: 7px;">
+            <img src="https://ева-крым.рф/img/logo.png" style="width: 170px;height: 40px;margin-right: 10px"> Вы получили заказ
+
+
+        </td>
+    </tr>. <tr>
+        <td style="font-size: 12px;border: 1px solid #DDDDDD;background-color: #EFEFEF;font-weight: bold;text-align: left;padding: 7px;color: #222222;">Информация о заказе </td>
+        <td style="font-size: 12px;border: 1px solid #DDDDDD;background-color: #EFEFEF;font-weight: bold;text-align: left;padding: 7px;color: #222222;">Информация о клиенте</td>
+    </tr>
+    <tr>
+        <td style="font-size: 12px;border: 1px solid #DDDDDD;text-align: left;padding: 7px;">
+            <b>Регион доставки:</b> <br>
+            <b>Адрес доставки:</b> Не указан<br>
+            <b>Способ оплаты:</b> Оплатить при получении<br>
+        </td>
+        <td style="font-size: 12px;border: 1px solid #DDDDDD;text-align: left;padding: 7px;">
+            <b>Имя:</b> test<br>
+            <b>Номер телефона:</b> +7 (999) 999-99-99<br>
+            <b>Почта:</b> brondware@yandex.ru<br>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" style="font-size: 12px;border: 1px solid #DDDDDD;text-align: left;padding: 7px;">
+            <b>Комментарий к заказу:</b> test
+        </td>
+    </tr>
+</table>
+                <table class="table cart_table cartTable" style="border-collapse: collapse;width: 100%;border-top: 1px solid #DDDDDD;border-left: 1px solid #DDDDDD;margin-bottom: 20px;">
+                    <thead>
+                        <tr>
+                            <td class="cart_img headtd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;background-color: #EFEFEF;font-weight: bold;text-align: left;padding: 7px;color: #222222;">Товар</td>
+                            <td class="cart_title headtd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;background-color: #EFEFEF;font-weight: bold;text-align: left;padding: 7px;color: #222222;">Название</td>
+                            <td class="cart_desc headtd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;background-color: #EFEFEF;font-weight: bold;text-align: left;padding: 7px;color: #222222;">Описание</td>
+                            <td class="cart_count headtd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;background-color: #EFEFEF;font-weight: bold;text-align: left;padding: 7px;color: #222222;">Кол-во</td>
+                            <td class="cart_price headtd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;background-color: #EFEFEF;font-weight: bold;text-align: left;padding: 7px;color: #222222;">Стоимость заказа</td>
+                            
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                <tr class="cartTr" data-id="0">
+                            <td class="cart_img bodytd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: left;padding: 7px;">
+                                <div class="cart_img_box">
+                                    <img src="https://ева-крым.рф/uploads/a47abe65127323b29bca76af136db51e.png">
+                                </div>
+                            </td>
+                            <td class="cart_title bodytd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: left;padding: 7px;">
+                                <p>Audi 100 III (C3) 44 (1982 - 1991)</p>
+                            </td>
+                            <td class="cart_desc bodytd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: left;padding: 7px;">
+                                <div class="">
+                                                                        Комплект ковриков в салон:<br>
+                                                                                                            Форма ячейки: Сота,<br>
+                                    Коврик: черный,<br>
+                                    Окантовка: Стандартная: черный<br>
+                                    Тип коврика: 2d (с разрезом)<br>
+                                    Тунель: без тунеля<br>
+                                                                                                        </div>
+                            </td>
+                            <td class="cart_count bodytd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: left;padding: 7px;">
+                                <div class="count_box countBox" style="display: flex">1</div>
+                            </td>
+                            <td class="cart_price bodytd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: left;padding: 7px;">
+                                <p><span class="thisPrice">2199</span> руб</p>
+                            </td>
+                            
+                        </tr>
+                                                <tr class="cartHid">
+                            <td class="bodytdnew" colspan="4" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: right;padding: 7px;color: #222222;font-weight: bold;" align="right">Предварительная стоимость:</td>
+                            <td class="bodytd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: left;padding: 7px;"><span class="predPrice">2199</span> руб</td>
+                        </tr>
+                    <tr>
+                        <td class="bodytdnew" colspan="4" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: right;padding: 7px;color: #222222;font-weight: bold;" align="right">Стоимость доставки:</td>
+                        <td class="bodytd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: left;padding: 7px;"><span class="deliveryPrice">0</span> руб</td>
+                    </tr>
+                                                <tr>
+                            <td class="bodytdnew" colspan="4" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: right;padding: 7px;color: #222222;font-weight: bold;" align="right">Скидка дня:</td>
+                            <td class="bodytd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: left;padding: 7px;"><span class="salePrice">1.4</span> %</td>
+                        </tr>
+                                                <tr>
+                            <td class="bodytdnew" colspan="4" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: right;padding: 7px;color: #222222;font-weight: bold;" align="right"><b>Итого:</b></td>
+                            <td class="bodytd" style="font-size: 12px;border-right: 1px solid #DDDDDD;border-bottom: 1px solid #DDDDDD;text-align: left;padding: 7px;"><span class="allPrice">2169</span> руб</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            <div style="display: block;width: 100%;margin: 30px 0 40px 0;">
+Вы можете оставить свой отзыв по адресу https://xn----7sbfl2am1a2g.xn--p1ai/reviews
+</div>
